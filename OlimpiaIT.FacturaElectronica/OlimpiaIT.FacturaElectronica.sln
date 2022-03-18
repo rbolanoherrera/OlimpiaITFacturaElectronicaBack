@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{6F14180F-6137-4301-8E1C-59C901475AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Common", "00 Common", "{ED4D82E6-541C-44C9-89A3-C552A37EA4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlimpiaIT.FacturaElectronica.Entidades", "OlimpiaIT.FacturaElectronica.Entidades\OlimpiaIT.FacturaElectronica.Entidades.csproj", "{A3D19E6E-53E4-4D3C-A490-B81ECB2F46D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlimpiaIT.FacturaElectronica.Utilidades", "OlimpiaIT.FacturaElectronica.Utilidades\OlimpiaIT.FacturaElectronica.Utilidades.csproj", "{3B8AAD63-6CC7-4D71-9E52-17D4F3B7DF97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Business", "01 Business", "{9436C3D9-F039-4D9E-8814-5E9DC1DA5675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlimpiaIT.FacturaElectronica.Business", "OlimpiaIT.FacturaElectronica.Business\OlimpiaIT.FacturaElectronica.Business.csproj", "{BC0D810B-1A4C-40B2-ADD1-E181616E07F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F14180F-6137-4301-8E1C-59C901475AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F14180F-6137-4301-8E1C-59C901475AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F14180F-6137-4301-8E1C-59C901475AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F14180F-6137-4301-8E1C-59C901475AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D19E6E-53E4-4D3C-A490-B81ECB2F46D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D19E6E-53E4-4D3C-A490-B81ECB2F46D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D19E6E-53E4-4D3C-A490-B81ECB2F46D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D19E6E-53E4-4D3C-A490-B81ECB2F46D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8AAD63-6CC7-4D71-9E52-17D4F3B7DF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8AAD63-6CC7-4D71-9E52-17D4F3B7DF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8AAD63-6CC7-4D71-9E52-17D4F3B7DF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8AAD63-6CC7-4D71-9E52-17D4F3B7DF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0D810B-1A4C-40B2-ADD1-E181616E07F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0D810B-1A4C-40B2-ADD1-E181616E07F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0D810B-1A4C-40B2-ADD1-E181616E07F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0D810B-1A4C-40B2-ADD1-E181616E07F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3D19E6E-53E4-4D3C-A490-B81ECB2F46D9} = {ED4D82E6-541C-44C9-89A3-C552A37EA4E5}
+		{3B8AAD63-6CC7-4D71-9E52-17D4F3B7DF97} = {ED4D82E6-541C-44C9-89A3-C552A37EA4E5}
+		{BC0D810B-1A4C-40B2-ADD1-E181616E07F7} = {9436C3D9-F039-4D9E-8814-5E9DC1DA5675}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57E21B27-108D-434E-A70B-10C4C2CA613A}
+	EndGlobalSection
+EndGlobal
